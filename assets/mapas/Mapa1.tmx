@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.0" orientation="orthogonal" renderorder="right-down" width="35" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="23" nextobjectid="62">
+ <tileset firstgid="1" source="Tileset/Decorative.tsx"/>
+ <tileset firstgid="257" source="Tileset/Buildings.tsx"/>
+ <layer id="11" name="Piso" width="35" height="20" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJy9lWFywiAUhPmREG+jrVfpPZIxBwtjztJzqO0FCpbPLE8y2hmnP3YgQB67+x7QN85NGR+tcyG2fe73zeuhcbU/mLYXXv8B9gbKIbWHjDHiJBiehI3/l3/Ui9Q/Znx55769cIt+nuL32Zees24QHaqHefajBuzaIFxCU+7x3jm370ou2/j92ZZgnR1PembDRUHMBLjgCTrOMe6lW8asTtpJ+F4ydC1x4MI+Z1k7Ch+4hGbRsdssuSBfaJllHTlVTwfRluK8bRa+rGMcLoOvc2E+5WKXuauv1rcEraFtbHe+zP3tTGT9cH7kC36Sg6MBviVdk6xPvK98/a/OWh0e437zChf+US74OZs4uq/mQf3XHOGB+kY8agttJ1/novqJS07YV71XrnpP4cEg+VYu/J/6oSm5qKZgtJAT9Fgu1Ahx7DnRs6VnKjzgwj5JC3wO7f15Zi5UagTuWn/4be+Ai/i1xiWIt3hPzDnPVXkZH7T+gNZ+aJZ3QLlU7zp5R6812uYz7+/P/+28mLqz3zdtAuuL3mmJ95Br0Macc17oqzatI3v/aA1OmcPe17novcYdE2Qv8ohvxNb3ljkds1zIx+gXLpY/npPjsbmvK+Il3zQ3gFrQsW1Xvvlo3K9w0fdIofc/50vr+RloDa/VjL1TaphegNo7UluX9vsBavCjXQ==
+  </data>
+ </layer>
+ <layer id="14" name="Paredes" width="35" height="20" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztkU0OgjAQhQdqt57B35N4A0h0wcbfk3gDSDS4ApWTeANxIyt/7+FrWgIxFFy66Eu+NHnTmb5MGSNyOVXq0iIaozbh8owsohjswQEcQWLp/bxPnDvNG0IOaiFgyBLUZHGACza4c8P8O3iAJ3iBt6X3t7zoz2qy+KUsur2Iuo85QUvm6thEXdADfTAAQ1vvl/vr9hKqLCO1l7Dirnj/DFKVZYX5MzAHC7C0pTfV+Ckv+puyiH2sWZGrSlf4HpdZEsyPwR4cQJtLL9L4nurNePMfiX2cmESnvJ4j3vmF775fMDIyMjIyMvpffQB41VD0
+  </data>
+ </layer>
+ <layer id="13" name="Puertas" width="35" height="20" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJztkbsNwkAQBZ99ogGqARwiN4AIKAWbkA6oxp+QDqiGT8KcSDbxRXdEO9JIJ20wqz3pxypIx0rqsMcTroOyEhIN22p5D8xGnHDGQ+Zd9omGbcWdn8xe+MZPobssNWwr7ryppS3usKnL3GWpYVtX3mdmHfZ4wVvmXVIN27rHv2Q24oQzPjLv8o+G4ziO4zhl+AKFmCY0
+  </data>
+ </layer>
+ <layer id="12" name="SobrePisos" width="35" height="20" locked="1">
+  <data encoding="base64" compression="zlib">
+   eJzN1UtOAkEUheELFL0CEoYIdGSmmLAG2YEMaR6BGeqKBDUyU1mRCgRmPHbAz8C0A7wFTdPNSb5J3Uqd2wkJIiJZiTd/+0uxbXEe/f8lE3B2ig5XuafNDsm+HRXlnjY7JFF0nENyRuQCeRRQhGui3eEWVdTp9dBAEy20jT+PIneo4YnePgZ4xgtejT8/Np7Ddzr6WQddfNH7jR+MMcHU+HPtTe38N31mA8d+tk0uze8FeRRQhJve703tPEjq9HpooIkW2jt2OWUuU/x/pILPw0yHnq7SZZuHmTd6hkqXba5lkRBZYoV1wn5/Rs9c6bLNtVwlRa5Rxk0y2BthpUf/PR7wGPMu7/R/4BOjmHfZADwqMCE=
+  </data>
+ </layer>
+ <objectgroup id="16" name="Colision" locked="1">
+  <object id="18" x="0" y="80" width="558" height="8.77693"/>
+  <object id="26" x="-11.271" y="88.1103" width="16" height="231.326"/>
+  <object id="27" x="3.60189" y="316.962" width="556.295" height="14.8729"/>
+  <object id="29" x="556.556" y="82.4748" width="3.44363" height="235.614"/>
+  <object id="31" x="192" y="216" width="32" height="56"/>
+  <object id="33" x="320" y="216" width="32" height="56"/>
+  <object id="35" x="199.333" y="132.667" width="18.6667" height="43.3333"/>
+  <object id="36" x="326.667" y="131" width="18.6667" height="43.3333"/>
+  <object id="38" x="11.4916" y="264.674" width="35.7243" height="45.5252"/>
+ </objectgroup>
+ <objectgroup id="17" name="Puerta" opacity="0.46">
+  <object id="39" x="47.3334" y="85.3333" width="64.6667" height="11.3333"/>
+  <object id="61" x="447.667" y="83.6667" width="64.6667" height="11.3333"/>
+ </objectgroup>
+ <objectgroup id="19" name="Cofre" locked="1">
+  <object id="45" x="96" y="176" width="16" height="16"/>
+  <object id="46" x="432" y="176" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup id="20" name="Escencia" locked="1">
+  <object id="49" x="144" y="240" width="16" height="16"/>
+  <object id="50" x="256" y="240" width="16" height="16"/>
+  <object id="52" x="272" y="256" width="16" height="16"/>
+  <object id="53" x="432" y="240" width="16" height="16"/>
+ </objectgroup>
+</map>
